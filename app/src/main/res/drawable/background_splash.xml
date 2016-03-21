@@ -4,9 +4,9 @@
         android:drawable="@android:color/white"/>
 
     <item>
-        <bitmap android:src="@mipmap/wwww"
+        <bitmap
             android:gravity="center"
-            />
+            android:src="@mipmap/wwww_icon" />
     </item>
 
 </layer-list>

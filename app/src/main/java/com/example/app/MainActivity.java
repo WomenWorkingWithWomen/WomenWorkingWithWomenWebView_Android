@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         webSettings.setJavaScriptEnabled(true);
 
         // Use remote resource
-         mWebView.loadUrl("http://www.womenworkingwithwomen.org");
+         mWebView.loadUrl("http://10.0.2.2:3000/");
 
         // Stop local links and redirects from opening in browser instead of WebView
          mWebView.setWebViewClient(new MyAppWebViewClient());
